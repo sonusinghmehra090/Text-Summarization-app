@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-summarizer</title>
+    <link rel="stylesheet" href="static/style.css.?v=1.1">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Summarizer </h1>
+        <h5><i>Using HuggingFace Transformer 🤗</i></h5>
+        <p id="details">Provide your content below for quick summary 😃</p>
+        <div id="form_box">
+            <form action="/summary/" id="summary_form" autocompletion="off">
+                <textarea name="" id="textbox" placeholder="enter your content..." required></textarea>
+                <button type="submit">summarize</button>
+            </form>
+        </div>
+        <div class="summary-output">
+            <h3 id="summary-heading">Content Summary</h3>
+            <p id="summary-text"></p>
+        </div>
+    </div>
+    <script src="static/app.js"></script>
+    
+</body>
+</html>
