@@ -1,2 +1,3 @@
 # Text-Summarization-app
-build an end-to-end Deep Learning NLP model to summarize the text using Hugging Face transformers
+
+## Build an end-to-end NLP text summarization pipeline powered by Hugging Face T5 Transformers, featuring advanced data preprocessing to transform lengthy text into concise, accurate summaries.
